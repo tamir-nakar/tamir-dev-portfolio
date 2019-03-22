@@ -1,90 +1,17 @@
 const SHOW = true;
 const REVEALD_CARD = true;
 
-class GameManager {
-
-  constructor (numPairs) {
-
-    this.revealedCard = null;
-    this.numPairs = numPairs || 9;
-    this.pairsCount = numPairs || 9;
-  }
-
-  handleCardReveal(card) {
-    if(card.getAttribute('active') === 'true') {
-      if(this.revealedCard) { // this is the second of the pair
-        if(isMatch(this.revealedCard, card)) { // match
-          this.revealedCard.setAttribute('active', false);
-          card.setAttribute('active', false);
-          this.revealedCard = null;
-          this.pairsCount--;
-          if(this.pairsCount === 0) {
-            setTimeout(()=>{alert('YOU WIN!')}, 200);
-            setTimeout(()=>{this.resetGame()},300);
-          }
-          console.log(`MATCH: COUNT IS NOW ${this.pairsCount}` );
-        }
-        else { // no match
-
-          setTimeout(()=>{flipCard(card, !SHOW)},500);
-          setTimeout(()=>{flipCard(this.revealedCard,!SHOW, REVEALD_CARD)},500);
-          console.log('no match');
-        }
-      }
-      else { // this is the first card reveald of the pair
-        this.revealedCard = card;
-        this.revealedCard.setAttribute('active', false);
-
-      }
-    }
-  }
-
-  shuffle() {
-
-    const cardsArr = document.querySelectorAll('.card');
-    const randArr = [];
-
-    cardsArr.forEach(card => {
-      stop = false;
-      while(!stop) {
-        let rand = Math.floor(Math.random() * this.numPairs + 1);
-        if(!randArr[rand]) {
-          randArr[rand] = 1;
-          stop = true;
-          card.setAttribute('id', rand);
-        }
-        else if(randArr[rand] === 1) {
-          randArr[rand]++;
-          stop = true;
-          card.setAttribute('id', rand);
-        }
-
-      }
-
-    })
-  }
-
-  resetGame() {
-
-    const cardsArr = document.querySelectorAll('.card');
-    cardsArr.forEach(card => flipCard(card, !SHOW));
-    this.shuffle();
-    this.pairsCount = 9;
-  }
-
-}
-
 gameManager = new GameManager();
 gameManager.shuffle();
-// events --!
 
+// events --!
 document.querySelectorAll('.card').forEach((card, index) => card.addEventListener('click', () => {
-  flipCard(card, SHOW);
+  if(!gameManager.freezeGame) flipCard(card, SHOW);
 }))
 
 // flip when clicked
 document.querySelectorAll('.card').forEach((card, index) => card.addEventListener('click', () => {
-  gameManager.handleCardReveal(card);
+  if(!gameManager.freezeGame) gameManager.handleCardReveal(card);
 }))
 
 // mouseenter
@@ -121,7 +48,7 @@ flipByIndex = (index, show, revealedCard) => {
   if(revealedCard) {
     gameManager.revealedCard = null;
   }
-
+  gameManager.freezeGame = false;
 }
 
 flipCard = (card, show, revealedCard) => {
@@ -138,3 +65,10 @@ getCardIdByIndex = (index) => {
   return chosenCard.getAttribute('id');
 }
 
+function pausecomp(millis)
+{
+    var date = new Date();
+    var curDate = null;
+    do { curDate = new Date(); }
+    while(curDate-date < millis);
+}
