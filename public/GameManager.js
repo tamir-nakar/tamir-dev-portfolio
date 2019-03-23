@@ -2,6 +2,7 @@ class GameManager {
 
   constructor (numPairs) {
 
+
     this.revealedCard = null; // the (possibly) revealed card in the board
     this.numPairs = numPairs || 9;
     this.pairsCount = numPairs || 9;
