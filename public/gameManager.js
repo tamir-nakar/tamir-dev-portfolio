@@ -14,7 +14,7 @@ class GameManager {
 
       if(this.revealedCard) { // this is the second of the pair
 
-        if(isMatch(this.revealedCard, card)) { // match
+        if(deck.isMatch(this.revealedCard, card)) { // match
 
           this.revealedCard.setAttribute('active', false);
           card.setAttribute('active', false);
@@ -26,8 +26,8 @@ class GameManager {
         else { // no match
 
           this.freezeGame = true;
-          setTimeout(()=>{flipCard(card, !SHOW)},500); // will unfreez
-          setTimeout(()=>{flipCard(this.revealedCard,!SHOW, REVEALD_CARD)},500);
+          setTimeout(()=>{deck.flipCard(card, !SHOW)},500); // will unfreez
+          setTimeout(()=>{deck.flipCard(this.revealedCard,!SHOW, REVEALD_CARD)},500);
           console.log('no match');
         }
       }
@@ -49,37 +49,10 @@ class GameManager {
     }
   }
 
-  shuffle() {
-
-    const cardsArr = document.querySelectorAll('.card');
-    const randArr = [];
-
-    cardsArr.forEach(card => {
-      stop = false;
-      while(!stop) {
-        let rand = Math.floor(Math.random() * this.numPairs + 1);
-        if(!randArr[rand]) {
-          randArr[rand] = 1;
-          stop = true;
-          card.setAttribute('id', rand);
-        }
-        else if(randArr[rand] === 1) {
-          randArr[rand]++;
-          stop = true;
-          card.setAttribute('id', rand);
-        }
-
-      }
-
-    })
-  }
-
   resetGame() {
 
-    const cardsArr = document.querySelectorAll('.card');
-    cardsArr.forEach(card => flipCard(card, !SHOW));
-    this.shuffle();
+    CARDS_ARR.forEach(card => deck.flipCard(card, !SHOW));
+    deck.shuffle();
     this.pairsCount = 9;
   }
-
 }
