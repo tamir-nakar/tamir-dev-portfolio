@@ -68,12 +68,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="40" />
+          <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="PLAIN_TEXT" value="84" />
         </counts>
       </usages-collector>
     </session>
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="178">
+              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -224,6 +224,11 @@
               <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -275,7 +280,7 @@
       <workItem from="1560624583951" duration="1031000" />
       <workItem from="1561152447648" duration="627000" />
       <workItem from="1562527633175" duration="594000" />
-      <workItem from="1562972048972" duration="930000" />
+      <workItem from="1562972048972" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="updated Memory-Game">
       <created>1560624735166</created>
@@ -298,14 +303,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563012423897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated Memory-Game - missing file">
+      <created>1563012651717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563012651717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Memory game: 2 BUGFIXES">
+      <created>1563019865904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563019865904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26466000" />
+    <option name="totallyTimeSpent" value="28664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22081785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -336,7 +355,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated Memory-Game + CSS" />
     <MESSAGE value="updated Memory-Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Memory-Game" />
+    <MESSAGE value="updated Memory-Game - missing file" />
+    <MESSAGE value="Memory game: 2 BUGFIXES" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memory game: 2 BUGFIXES" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -369,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="178">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
         </state>
       </provider>
     </entry>
