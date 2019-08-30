@@ -27,7 +27,7 @@ body {
   padding:10px 10px 10px 10px;
   border-collapse: separate;
   border-radius: 10px;
-  background-image: url("./images/table.jpg");
+  background-image: url("../images/table.jpg");
   background-size: cover;
 
 
@@ -39,7 +39,7 @@ h1 {
 
 
 body {
-  background-image: url("./images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   background-size: cover;
 }
 
