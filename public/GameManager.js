@@ -106,12 +106,18 @@ class GameManager {
 
   async showCreateDeck() {
 
+      let customizedImages = null;
+
       _hideAllMenus.call(this);
+      if(customizedImages = UserDataManager.getCustomizedDeck()) {
+            fillImageHolders(customizedImages);
+      }
       document.querySelector('#customize').style.display = 'block';
   }
 
   setDeckName(deckName) {
       this._deck.setDeckName = deckName;
+gameManager.resetGame(RESET_FROM_MENU)
     }
 
   hideScoreBoard() {
