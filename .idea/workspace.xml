@@ -3,7 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="5fdcfe3b-159f-45a1-83ce-d6d313f2fcae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Deck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/DeckCustomizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/GameManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ScoreBoard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/StopWatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/UserDataManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/game.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/card_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deckSettings/customise.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deckSettings/deck1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deckSettings/deck2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_marvel/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/deck_southpark/cover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/table.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/card.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/customize_deck.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/deck_settings.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/game.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/hamburger_menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/scoreBoard.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,8 +109,9 @@
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -102,20 +148,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/deck_settings.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/customize_deck.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -235,10 +267,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-216" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -252,17 +284,6 @@
             <path>
               <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +339,8 @@
       <workItem from="1562527633175" duration="594000" />
       <workItem from="1562972048972" duration="6458000" />
       <workItem from="1567201106560" duration="377000" />
-      <workItem from="1567263031286" duration="579000" />
+      <workItem from="1567263031286" duration="1905000" />
+      <workItem from="1569868539018" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="updated Memory-Game">
       <created>1560624735166</created>
@@ -390,16 +412,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567263151881</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Memgame">
+      <created>1567263619038</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567263619038</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32950000" />
+    <option name="totallyTimeSpent" value="34577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-216" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1563981" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22081785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -455,9 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/a.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/a.css" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2781">
@@ -465,13 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/canvas poc/a.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/canvas poc/a.js" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -481,6 +503,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/deck_settings.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/customize_deck.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.marko">
       <provider selected="true" editor-type-id="text-editor">
@@ -524,13 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/customize_deck.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
