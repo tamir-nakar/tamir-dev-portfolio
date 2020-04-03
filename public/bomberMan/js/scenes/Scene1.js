@@ -4,35 +4,35 @@ class Scene1 extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('bg', '/tamir-dev-portfolio/public/bomberMan/assets/images/ground_bg.png');
-    this.load.image('box', '/tamir-dev-portfolio/public/bomberMan/assets/images/box.png');
-    this.load.image('metal', '/tamir-dev-portfolio/public/bomberMan/assets/images/metal.png');
-    this.load.tilemapTiledJSON('map', '/tamir-dev-portfolio/public/bomberMan/assets/map/map.json');
+    this.load.image('bg', '/bomberMan/assets/images/ground_bg.png');
+    this.load.image('box', '/bomberMan/assets/images/box.png');
+    this.load.image('metal', '/bomberMan/assets/images/metal.png');
+    this.load.tilemapTiledJSON('map', '/bomberMan/assets/map/map.json');
 
-    this.load.spritesheet('player', '/tamir-dev-portfolio/public/bomberMan/assets/spritesheets/john.png', {
+    this.load.spritesheet('player', '/bomberMan/assets/spritesheets/john.png', {
       frameWidth: 62,
       frameHeight: 62
     });
 
-    this.load.spritesheet('death', '/tamir-dev-portfolio/public/bomberMan/assets/spritesheets/death.png', {
+    this.load.spritesheet('death', '/bomberMan/assets/spritesheets/death.png', {
       frameWidth: 64,
       frameHeight: 64
     });
 
-    this.load.spritesheet('bomb', '/tamir-dev-portfolio/public/bomberMan/assets/spritesheets/bomb.png', {
+    this.load.spritesheet('bomb', '/bomberMan/assets/spritesheets/bomb.png', {
       frameWidth: 32,
       frameHeight: 32
     });
 
-    this.load.spritesheet('explosion', '/tamir-dev-portfolio/public/bomberMan/assets/spritesheets/explosion_1.png', {
+    this.load.spritesheet('explosion', '/bomberMan/assets/spritesheets/explosion_1.png', {
       frameWidth: 256,
       frameHeight: 256
     });
-    this.load.spritesheet('explosion2', '/tamir-dev-portfolio/public/bomberMan/assets/spritesheets/explosion_4.png', {
+    this.load.spritesheet('explosion2', '/bomberMan/assets/spritesheets/explosion_4.png', {
       frameWidth: 256,
       frameHeight: 256
     });
-    this.load.spritesheet('power_ups', '/tamir-dev-portfolio/public/bomberMan/assets/spritesheets/powerUps.png', {
+    this.load.spritesheet('power_ups', '/bomberMan/assets/spritesheets/powerUps.png', {
       frameWidth: 32,
       frameHeight: 32
     });
