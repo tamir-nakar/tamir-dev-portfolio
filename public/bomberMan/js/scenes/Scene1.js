@@ -14,7 +14,7 @@ class Scene1 extends Phaser.Scene {
       frameHeight: 62
     });
 
-    this.load.spritesheet('death', '/bomberMan/assets/spritesheets/death.png', {
+    this.load.spritesheet('death', '/bomberMan/assets/spritesheets/Death.png', {
       frameWidth: 64,
       frameHeight: 64
     });
