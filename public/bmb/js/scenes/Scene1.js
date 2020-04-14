@@ -8,73 +8,73 @@ class Scene1 extends Phaser.Scene {
     this.data = data;
   }
   preload() {
-    this.load.image('bg', '/bmbrmn/assets/images/ground_bg.png');
-    this.load.image('statsPanel', '/bmbrmn/assets/images/statsPanel.png');
-    this.load.image('box', '/bmbrmn/assets/images/box.png');
-    this.load.image('metal', '/bmbrmn/assets/images/metal.png');
-    this.load.image('promptWindow', '/bmbrmn/assets/images/promptWindow.png');
-    this.load.image('btn_simple', '/bmbrmn/assets/images/menu_items/simpleBtn.png');
-    this.load.tilemapTiledJSON('map', '/bmbrmn/assets/map/map.json');
+    this.load.image('bg', '/bmb/assets/images/ground_bg.png');
+    this.load.image('statsPanel', '/bmb/assets/images/statsPanel.png');
+    this.load.image('box', '/bmb/assets/images/box.png');
+    this.load.image('metal', '/bmb/assets/images/metal.png');
+    this.load.image('promptWindow', '/bmb/assets/images/promptWindow.png');
+    this.load.image('btn_simple', '/bmb/assets/images/menu_items/simpleBtn.png');
+    this.load.tilemapTiledJSON('map', '/bmb/assets/map/map.json');
 
-    this.load.spritesheet('player1', '/bmbrmn/assets/spritesheets/player1.png', {
+    this.load.spritesheet('player1', '/bmb/assets/spritesheets/player1.png', {
       frameWidth: 62,
       frameHeight: 62
     });
 
-    this.load.spritesheet('player_options', '/bmbrmn/assets/spritesheets/player_options.png', {
+    this.load.spritesheet('player_options', '/bmb/assets/spritesheets/player_options.png', {
       frameWidth: 64,
       frameHeight: 64
     });
 
-    this.load.spritesheet('player2', '/bmbrmn/assets/spritesheets/player2.png', {
+    this.load.spritesheet('player2', '/bmb/assets/spritesheets/player2.png', {
       frameWidth: 62,
       frameHeight: 62
     });
 
-    this.load.spritesheet('player3', '/bmbrmn/assets/spritesheets/player3.png', {
+    this.load.spritesheet('player3', '/bmb/assets/spritesheets/player3.png', {
       frameWidth: 62,
       frameHeight: 62
     });
 
-    this.load.spritesheet('player4', '/bmbrmn/assets/spritesheets/player4.png', {
+    this.load.spritesheet('player4', '/bmb/assets/spritesheets/player4.png', {
       frameWidth: 62,
       frameHeight: 62
     });
 
-    this.load.spritesheet('death', '/bmbrmn/assets/spritesheets/death.png', {
+    this.load.spritesheet('death', '/bmb/assets/spritesheets/death.png', {
       frameWidth: 64,
       frameHeight: 64
     });
 
-    this.load.spritesheet('bomb1', '/bmbrmn/assets/spritesheets/bomb1.png', {
+    this.load.spritesheet('bomb1', '/bmb/assets/spritesheets/bomb1.png', {
       frameWidth: 32,
       frameHeight: 32
     });
 
-    this.load.spritesheet('bomb2', '/bmbrmn/assets/spritesheets/bomb2.png', {
+    this.load.spritesheet('bomb2', '/bmb/assets/spritesheets/bomb2.png', {
       frameWidth: 32,
       frameHeight: 32
     });
 
-    this.load.spritesheet('bomb3', '/bmbrmn/assets/spritesheets/bomb3.png', {
+    this.load.spritesheet('bomb3', '/bmb/assets/spritesheets/bomb3.png', {
       frameWidth: 32,
       frameHeight: 32
     });
 
-    this.load.spritesheet('bomb4', '/bmbrmn/assets/spritesheets/bomb4.png', {
+    this.load.spritesheet('bomb4', '/bmb/assets/spritesheets/bomb4.png', {
       frameWidth: 32,
       frameHeight: 32
     });
 
-    this.load.spritesheet('explosion', '/bmbrmn/assets/spritesheets/explosion_1.png', {
+    this.load.spritesheet('explosion', '/bmb/assets/spritesheets/explosion_1.png', {
       frameWidth: 256,
       frameHeight: 256
     });
-    this.load.spritesheet('explosion2', '/bmbrmn/assets/spritesheets/explosion_4.png', {
+    this.load.spritesheet('explosion2', '/bmb/assets/spritesheets/explosion_4.png', {
       frameWidth: 256,
       frameHeight: 256
     });
-    this.load.spritesheet('power_ups', '/bmbrmn/assets/spritesheets/powerUps.png', {
+    this.load.spritesheet('power_ups', '/bmb/assets/spritesheets/powerUps.png', {
       frameWidth: 32,
       frameHeight: 32
     });
