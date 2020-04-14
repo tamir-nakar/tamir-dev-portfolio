@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fdcfe3b-159f-45a1-83ce-d6d313f2fcae" name="Default Changelist" comment="BomberMan">
+      <change afterPath="$PROJECT_DIR$/public/bmbr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmbr/js/scenes/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmbr/js/scenes/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmbr/js/scenes/Scene1.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmbr/js/scenes/Scene1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_battleSettings.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_battleSettings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_instructions.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_instructions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bomberMan" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +66,7 @@
     <session id="-364578875">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -68,15 +75,16 @@
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="4" />
           <entry key="html" value="11" />
-          <entry key="js" value="141" />
+          <entry key="js" value="146" />
           <entry key="json" value="1" />
           <entry key="txt" value="118" />
         </counts>
@@ -86,83 +94,41 @@
           <entry key="CSS" value="4" />
           <entry key="HTML" value="11" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="141" />
+          <entry key="JavaScript" value="146" />
           <entry key="PLAIN_TEXT" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="4" />
-          <entry key="js" value="11" />
+          <entry key="html" value="8" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="31" />
           <entry key="json" value="1" />
+          <entry key="png" value="9" />
+          <entry key="psd" value="1" />
           <entry key="tsx" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="8" />
+          <entry key="Image" value="11" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="11" />
+          <entry key="JavaScript" value="31" />
           <entry key="TypeScript JSX" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/spaceWars/js/scenes/Scene1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/map/box.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bomberMan/js/game.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bomberMan/js/consts.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/bomberMan/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -173,11 +139,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/spaceWars/index.html">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/Menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="347">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/Scene1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/Scene2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4698" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_battleSettings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1408">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_instructions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-567">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/bmbr/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-652" />
           </provider>
         </entry>
       </file>
@@ -195,10 +211,11 @@
       <find>pug</find>
       <find>render</find>
       <find>path.join</find>
+      <find>death.p</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/public/bmbr" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -220,6 +237,16 @@
         <option value="$PROJECT_DIR$/public/spaceWars/index.html" />
         <option value="$PROJECT_DIR$/public/spaceWars/js/scenes/Scene1.js" />
         <option value="$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js" />
+        <option value="$PROJECT_DIR$/public/bomber/js/scenes/Scene1.js" />
+        <option value="$PROJECT_DIR$/public/bomber/js/scenes/Menu.js" />
+        <option value="$PROJECT_DIR$/public/bomber/js/scenes/SubMenu_battleSettings.js" />
+        <option value="$PROJECT_DIR$/public/bomber/js/scenes/SubMenu_instructions.js" />
+        <option value="$PROJECT_DIR$/public/bomber/js/scenes/SubMenu_settings.js" />
+        <option value="$PROJECT_DIR$/public/bmbr/js/scenes/Menu.js" />
+        <option value="$PROJECT_DIR$/public/bmbr/js/scenes/Scene1.js" />
+        <option value="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_battleSettings.js" />
+        <option value="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_instructions.js" />
+        <option value="$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_settings.js" />
       </list>
     </option>
   </component>
@@ -251,7 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,36 +285,11 @@
               <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tamir-dev-portfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tamir-dev-portfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bomberMan" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="scenes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +349,8 @@
       <workItem from="1577569273131" duration="1381000" />
       <workItem from="1583514066527" duration="597000" />
       <workItem from="1584729397957" duration="5000" />
-      <workItem from="1585947713428" duration="1771000" />
+      <workItem from="1585947713428" duration="3627000" />
+      <workItem from="1586856692694" duration="1700000" />
     </task>
     <task id="LOCAL-00001" summary="updated Memory-Game">
       <created>1560624735166</created>
@@ -483,21 +485,40 @@
       <option name="project" value="LOCAL" />
       <updated>1585949305018</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="BomberMan">
+      <created>1585949518139</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585949518140</updated>
+    </task>
+    <task id="LOCAL-00021" summary="BomberMan">
+      <created>1586021654658</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586021654658</updated>
+    </task>
+    <task id="LOCAL-00022" summary="BomberMan">
+      <created>1586856977759</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586856977759</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41244000" />
+    <option name="totallyTimeSpent" value="44800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15587151" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21063718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3402854" />
@@ -508,7 +529,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17563118" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.388584" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -538,29 +560,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/layout.pug" />
-    <entry file="file://$PROJECT_DIR$/quickstart.js" />
-    <entry file="file://$PROJECT_DIR$/views/index.pug" />
-    <entry file="file://$PROJECT_DIR$/views/error.pug" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.12.0/core-modules/module.js" />
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/response.js" />
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css" />
-    <entry file="file://$PROJECT_DIR$/public/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/a.css" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2781">
-          <caret line="103" column="58" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/canvas poc/a.js" />
     <entry file="file://$PROJECT_DIR$/public/stylesheets/deck_settings.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -636,10 +635,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/spaceWars/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/map/box.tsx" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/game.js" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/consts.js" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/index.html" />
     <entry file="file://$PROJECT_DIR$/public/spaceWars/js/scenes/Scene1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/SokobanClone_byVellidragon.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/ship3.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/ship2.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/ship1.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/metal.psd" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/metal.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/ground_bg.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/box.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/images/background.png" />
+    <entry file="file://$PROJECT_DIR$/public/images/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/spritesheets/Death.png" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js" />
+    <entry file="file://$PROJECT_DIR$/public/bomberMan2/js/consts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan2/js/game.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan2/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan2/js/scenes/Scene1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/Scene2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5751" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/SubMenu_instructions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/SubMenu_settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2349">
+          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/SubMenu_battleSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -650,37 +733,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/spaceWars/index.html">
+    <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="347">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bomberMan/assets/map/box.tsx">
+    <entry file="file://$PROJECT_DIR$/public/bmbr/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
+        <state relative-caret-position="-652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/game.js">
+    <entry file="file://$PROJECT_DIR$/public/bomberMan1/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/consts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/bomberMan/js/scenes/Scene1.js">
+    <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/Scene1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="77">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bomberMan/index.html">
+    <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/Scene2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="-4698" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_battleSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1408">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_instructions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bmbr/js/scenes/SubMenu_settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
         </state>
       </provider>
     </entry>
