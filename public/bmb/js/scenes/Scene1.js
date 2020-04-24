@@ -2,10 +2,12 @@ class Scene1 extends Phaser.Scene {
   constructor() {
     super('bootGame');
     this.data = null;
+    this.isMobile = null;
   }
 
-  init(data) {
-    this.data = data;
+  init() {
+    this.data = {};
+    this.data.isMobile = !this.sys.game.device.os.desktop;
   }
   preload() {
     this.load.image('bg', '/bmb/assets/images/ground_bg.png');
@@ -14,100 +16,101 @@ class Scene1 extends Phaser.Scene {
     this.load.image('metal', '/bmb/assets/images/metal.png');
     this.load.image('promptWindow', '/bmb/assets/images/promptWindow.png');
     this.load.image('btn_simple', '/bmb/assets/images/menu_items/simpleBtn.png');
+    this.load.image('btn_bomb', '/bmb/assets/images/controllers/bomb_btn.png');
+    this.load.image('btn_detonator', '/bmb/assets/images/controllers/detonator_btn.png');
+
     this.load.tilemapTiledJSON('map', '/bmb/assets/map/map.json');
 
     this.load.spritesheet('player1', '/bmb/assets/spritesheets/player1.png', {
       frameWidth: 62,
-      frameHeight: 62
+      frameHeight: 62,
     });
 
     this.load.spritesheet('player_options', '/bmb/assets/spritesheets/player_options.png', {
       frameWidth: 64,
-      frameHeight: 64
+      frameHeight: 64,
     });
 
     this.load.spritesheet('player2', '/bmb/assets/spritesheets/player2.png', {
       frameWidth: 62,
-      frameHeight: 62
+      frameHeight: 62,
     });
 
     this.load.spritesheet('player3', '/bmb/assets/spritesheets/player3.png', {
       frameWidth: 62,
-      frameHeight: 62
+      frameHeight: 62,
     });
 
     this.load.spritesheet('player4', '/bmb/assets/spritesheets/player4.png', {
       frameWidth: 62,
-      frameHeight: 62
+      frameHeight: 62,
     });
 
-    this.load.spritesheet('death', '/bmb/assets/spritesheets/Death.png', {
+    this.load.spritesheet('death', '/bmb/assets/spritesheets/death.png', {
       frameWidth: 64,
-      frameHeight: 64
+      frameHeight: 64,
     });
 
     this.load.spritesheet('bomb1', '/bmb/assets/spritesheets/bomb1.png', {
       frameWidth: 32,
-      frameHeight: 32
+      frameHeight: 32,
     });
 
     this.load.spritesheet('bomb2', '/bmb/assets/spritesheets/bomb2.png', {
       frameWidth: 32,
-      frameHeight: 32
+      frameHeight: 32,
     });
 
     this.load.spritesheet('bomb3', '/bmb/assets/spritesheets/bomb3.png', {
       frameWidth: 32,
-      frameHeight: 32
+      frameHeight: 32,
     });
 
     this.load.spritesheet('bomb4', '/bmb/assets/spritesheets/bomb4.png', {
       frameWidth: 32,
-      frameHeight: 32
+      frameHeight: 32,
     });
 
     this.load.spritesheet('explosion', '/bmb/assets/spritesheets/explosion_1.png', {
       frameWidth: 256,
-      frameHeight: 256
+      frameHeight: 256,
     });
     this.load.spritesheet('explosion2', '/bmb/assets/spritesheets/explosion_4.png', {
       frameWidth: 256,
-      frameHeight: 256
+      frameHeight: 256,
     });
     this.load.spritesheet('power_ups', '/bmb/assets/spritesheets/powerUps.png', {
       frameWidth: 32,
-      frameHeight: 32
+      frameHeight: 32,
     });
   }
   create() {
-    this.scene.start('menu', this.data);
-
     this.anims.create({
       key: 'player1_walk',
       frames: this.anims.generateFrameNumbers('player1'),
       frameRate: 5,
-      repeat: 1
+      repeat: 1,
     });
 
     this.anims.create({
       key: 'player2_walk',
       frames: this.anims.generateFrameNumbers('player2'),
       frameRate: 5,
-      repeat: 1
+      repeat: 1,
     });
 
     this.anims.create({
       key: 'player3_walk',
       frames: this.anims.generateFrameNumbers('player3'),
       frameRate: 5,
-      repeat: 1
+      repeat: 1,
     });
 
     this.anims.create({
       key: 'player4_walk',
       frames: this.anims.generateFrameNumbers('player4'),
       frameRate: 5,
-      repeat: 1
+      repeat: 1,
     });
 
     this.anims.create({
@@ -115,7 +118,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('bomb1'),
       frameRate: 6,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -123,7 +126,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('bomb2'),
       frameRate: 6,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -131,7 +134,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('bomb3'),
       frameRate: 6,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -139,7 +142,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('bomb4'),
       frameRate: 6,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -147,7 +150,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('bomb1', { start: 12, end: 13 }),
       frameRate: 10,
       repeat: -1,
-      hideOnComplete: false
+      hideOnComplete: false,
     });
 
     this.anims.create({
@@ -155,7 +158,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('explosion', { start: 1, end: 5 }),
       frameRate: 60,
       repeat: 0,
-      hideOnComplete: false
+      hideOnComplete: false,
     });
 
     this.anims.create({
@@ -163,7 +166,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('explosion', { start: 6 }),
       frameRate: 60,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -171,7 +174,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('explosion2', { end: 24 }),
       frameRate: 60,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -179,7 +182,7 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('explosion2', { start: 25 }),
       frameRate: 60,
       repeat: 0,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -187,35 +190,35 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('power_ups', { start: 6, end: 11 }),
       frameRate: 10,
       repeat: -1,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
     this.anims.create({
       key: 'fire_powerup_anim',
       frames: this.anims.generateFrameNumbers('power_ups', { start: 0, end: 5 }),
       frameRate: 10,
       repeat: -1,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
     this.anims.create({
       key: 'kick_powerup_anim',
       frames: this.anims.generateFrameNumbers('power_ups', { start: 24, end: 29 }),
       frameRate: 10,
       repeat: -1,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
     this.anims.create({
       key: 'detonate_powerup_anim',
       frames: this.anims.generateFrameNumbers('power_ups', { start: 12, end: 17 }),
       frameRate: 10,
       repeat: -1,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
     this.anims.create({
       key: 'speed_powerup_anim',
       frames: this.anims.generateFrameNumbers('power_ups', { start: 18, end: 23 }),
       frameRate: 10,
       repeat: -1,
-      hideOnComplete: true
+      hideOnComplete: true,
     });
 
     this.anims.create({
@@ -223,7 +226,9 @@ class Scene1 extends Phaser.Scene {
       frames: this.anims.generateFrameNumbers('death'),
       frameRate: 24,
       repeat: 0,
-      hideOnComplete: false
+      hideOnComplete: false,
     });
+
+    this.scene.start('menu', this.data);
   }
 }
